@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Print it ! - Impressions d'entreprise</title>
-	<script src="./assets/script.js" defer></script>
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +18,7 @@
 </header>
 <main>
 	<div id="banner">
-		<img class="banner-img" src="./assets/images/slideshow/slide1.jpg" alt="Banner Print-it">
+		<img id="banner__image" class="banner-img" src="./assets/images/slideshow/slide1.jpg" alt="Banner Print-it">
 		<p id="banner__text">Impressions tous formats <span>en boutique et en ligne</span></p>
 		<div id="left" class="arrow arrow_left">
 			<img  src="./assets/images/arrow_left.png" alt="fleche de gauche">
@@ -27,7 +26,11 @@
 		<div  id="right" class="arrow arrow_right">
 			<img src="./assets/images/arrow_right.png" alt="fleche de droite">
 		</div>
-		<div id="point" class="dots">
+		<div class="dots">
+			<div id="dot__1" class="dot dot_selected"></div>
+			<div id="dot__2" class="dot"></div>
+			<div id="dot__3" class="dot"></div>
+			<div id="dot__4" class="dot"></div>
 		</div>
 	</div>
 	<section id="about-us" class="container">
